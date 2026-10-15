@@ -1,7 +1,7 @@
 # BPL Interpreter
 
 A C++ recursive-descent parser and interpreter for a Basic Perl-Like language.
-Original coursework: NJIT CS280, Fall 2025. Parser/evaluator implementations by Anthony Vorontsov.
+
 
 ## Features
 
@@ -37,7 +37,7 @@ The runner reports both project expectation matches and unmodified course refere
 ## Attribution and maintenance
 
 This repository preserves the original course source headers and provided lexer/driver/header/test
-scaffolding. The parser and value-operation source files identify Anthony's implementation.
+scaffolding. The parser and value-operation source files identify my implementation.
 Repository packaging, CMake configuration, and the fixture runner were added in October 2026.
 The same maintenance pass fixes integer-remainder evaluation and one diagnostic punctuation mismatch,
 with eight targeted value-operation checks.
